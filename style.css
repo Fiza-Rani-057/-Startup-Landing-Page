@@ -108,6 +108,9 @@ img{
 .img-fluid{
     border: none !important;
 }
+ .get-started:hover{
+ box-shadow: 0px 0px 40px #bcccdd !important;
+ }
  /* hero section end  */
  /* about  */
 

@@ -114,3 +114,52 @@ img{
     border: none !important;
 }
  /* hero section end  */
+ /* about  */
+
+
+.about-box{
+    background: rgba(20, 40, 95, 0.55);
+    border: 1px solid rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 25px rgba(0,132,255,0.15);
+}
+/* about  */
+
+/* services section  */
+
+
+body{
+  background: linear-gradient(135deg,#07142f,#0d2b74);
+}
+
+.service-card{
+  background: rgba(20, 40, 95, 0.55);
+  border: 1px solid rgba(255,255,255,0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+.service-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,132,255,0.25);
+}
+
+
+.service-card img{
+  height: 200px;
+  object-fit: cover;
+}
+.btn-service{
+  background: #1f8fff;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-service:hover{
+  background: #4db8ff;
+  color: #fff;
+}
+/* services section end  */

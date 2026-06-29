@@ -186,7 +186,37 @@ button{
   /* section 1 end  */
 
    /* about section start  */
+ 
+ .about-text{
+    color: white;
+    flex: 1;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     justify-content: center;
+     padding-right: 300px;
+     padding-left: 50px;
+    
+ }
 
+@media (max-width: 768px){
+
+    .about{
+        padding: 60px 20px;
+    }
+
+    .about-text h2{
+        font-size: 30px;
+    }
+
+    .about-text p{
+        font-size: 15px;
+    }
+
+    .about-image img{
+        width: 100%;
+    }
+
+}
 
  /* about section end  */
   

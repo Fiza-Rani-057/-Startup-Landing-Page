@@ -15,8 +15,7 @@ body{
     padding:15px 35px;
     background:#0b1f5b;
     border-radius:15px;
-
-    display:flex;
+     display:flex;
    gap: 30px;
     align-items:center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -97,14 +96,95 @@ button{
 
 }
  /* navbar end  */
+  /* section 1 start  */
+
+  .hero{
+    width:100%;
+    min-height:100vh;
+    background:#07173d;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+    gap:50px;
+}
+
+.hero-text{
+   flex: 1;
+}
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:650px;
+}
+
+.tag{
+    display:inline-block;
+    background:#122c6b;
+    color:#fff;
+    padding:10px 20px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-size:65px;
+    color:white;
+    line-height:1.2;
+    font-weight:700;
+}
+
+.hero h1 span{
+    color:#4db8ff;
+    font-style:italic;
+}
+
+.hero p{
+    color:#b7bfd3;
+    font-size:20px;
+    line-height:35px;
+    margin:35px 0;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+}
+
+.btn1,
+.btn2{
+    padding:18px 35px;
+    border-radius:12px;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.btn1{
+    background:#1f6fff;
+    color:white;
+    border:none;
+}
+
+.btn2{
+    background:transparent;
+    color:white;
+    border:2px solid #4a6cff;
+}
+
+  /* section 1 end  */
  /* footer start  */
  .footer{
     background:#07173d;
     color:#fff;
     margin-top:80px;
 }
-
-/* Newsletter */
 
 .newsletter{
     display:flex;
@@ -205,7 +285,7 @@ button{
 
 }
 
-/* ------------------ Responsive ---------------- */
+ /* media query start  */
 
 @media(max-width:991px){
 
@@ -251,52 +331,38 @@ button{
 }
 
 .right input{
-
     border:2px solid #2d6cff;
     border-radius:10px;
     background:#10265f;
-
 }
 
 .right button{
-
     border-radius:10px;
-
 }
 
 .left h2{
-
     font-size:32px;
-
 }
-
 }
 
 @media(max-width:480px){
 
 .newsletter{
-
     padding:30px 20px;
-
 }
 
 .footer-content{
-
     padding:40px 20px;
-
 }
 
 .left h2{
-
     font-size:26px;
-
 }
 
 .right input,
 .right button{
-
     padding:15px;
-
 }
-
 }
+/* media query end footer  */
+

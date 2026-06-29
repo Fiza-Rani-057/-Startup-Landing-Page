@@ -107,6 +107,7 @@ button{
     align-items:center;
     padding:80px 8%;
     gap:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hero-text{
@@ -135,7 +136,7 @@ button{
 }
 
 .hero h1{
-    font-size:65px;
+    font-size:50px;
     color:white;
     line-height:1.2;
     font-weight:700;
@@ -160,10 +161,14 @@ button{
 
 .btn1,
 .btn2{
-    padding:18px 35px;
+    padding: 10px 30px;
     border-radius:12px;
     font-size:17px;
     cursor:pointer;
+}
+  .btn1 :hover,
+.btn2:hover{
+    background-color: #1e63ff;
 }
 
 .btn1{
@@ -179,6 +184,12 @@ button{
 }
 
   /* section 1 end  */
+
+   /* about section start  */
+
+
+ /* about section end  */
+  
  /* footer start  */
  .footer{
     background:#07173d;

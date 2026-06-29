@@ -103,7 +103,8 @@ p{
     line-height:1.8;
 }
 img{
-    max-width:95%;
+    max-width:100%;
+
 }
 .img-fluid{
     border: none !important;
@@ -126,21 +127,18 @@ img{
 /* services section  */
 
 
-body{
-  background: linear-gradient(135deg,#07142f,#0d2b74);
-}
-
 .service-card{
   background: rgba(20, 40, 95, 0.55);
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 3px solid #9ec7f5 !important;
+  box-shadow: 0px 0px 20px #74a8e3;
   backdrop-filter: blur(15px);
   border-radius: 18px;
   overflow: hidden;
   transition: 0.3s ease;
 }
 .service-card:hover{
-  transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0,132,255,0.25);
+  transform: scale(1.1);
+  box-shadow: 0 0px 30px #9ec7f5;
 }
 
 

@@ -1,130 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkyNova</title>
-    <link rel="stylesheet" href="styl.css">
+    <title>Startup Landing page</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+   rel="stylesheet">
 </head>
 <body>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- <nav class="navbar">
-    <div class="logo">Cloud.</div>
-    <input type="checkbox" id="menu">
-    <label for="menu" class="menu-icon">&#9776;</label>
-     <ul class="nav-links">
-        <li><a href="#">Platform</a></li>
-        <li><a href="#">Solutions</a></li>
-        <li><a href="#">Enterprise</a></li>
-        <li><a href="#">Pricing <span>ON SALE</span></a></li>
-        <li><a href="#">Contact Sales</a></li>
-        <li><a href="#">Get App</a></li>
-        <li><a href="#">Sign Up</a></li>
-        <li><button>Login</button></li>
-    </ul>
-</nav>
-
-  <!-- navbar end  -->
-    <section class="hero">
-    <div class="hero-text">
-        <span class="tag">ALL IN ONE CLOUD</span>
-        <h1>
-          Secure <span>Cloud</span> Storage  for All Your Files
-        </h1>
-        <p>
-            Documents, photos, videos and more—keep all
-            your files and folders safe in online cloud storage.
-        </p>
-        <div class="buttons">
-            <button class="btn1">Get Started</button>
-            <button class="btn2">Compare Plans</button>
-        </div>
+   <body>
+   <nav class="navbar navbar-expand-lg custom-navbar mt-3">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" href="#">
+      ☁cloud.
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Platform</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Enterprise</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link me-2" href="#">Pricing</a>
+          <span class="badge-sale">ON SALE</span>
+        </li>
+      </ul>
+      
+      <div class="d-flex align-items-center right-menu">
+        <a href="#" class="nav-link">Contact Sales</a>
+        <a href="#" class="nav-link">Get App</a>
+        <a href="#" class="nav-link">Sign Up</a>
+        <button class="btn login-btn">Login</button>
+      </div>
     </div>
-    <div class="hero-image">
-       <img src="images/hero section.png" alt="">
+  </div>
+</nav>
+   <!-- navbar end  -->
+
+    <!-- hero section start  -->
+  <section class="container py-5">
+
+    <div class="row align-items-center">
+        <div class="col-lg-5">
+            <span class="badge rounded-pill bg-primary px-3 py-2 mb-4">
+                ALL IN ONE CLOUD
+            </span>
+            <h1 class="display-3 fw-bold text-white">
+                Secure <em>Cloud</em> Storage
+            </h1>
+            <h1 class="display-4 fw-light text-white">
+                for All Your Files
+            </h1>
+            <p class="text-secondary my-4">
+                Documents, photos, videos and more—keep all your files
+                and folders safe in online cloud storage.
+            </p>
+
+            <div class="mt-4">
+                <a href="#" class="btn btn-primary px-4 py-3 me-3 rounded-3">
+                    Get Started
+                </a>
+                <a href="#" class="btn btn-outline-light px-4 py-3 rounded-3">
+                    Compare Plans
+                </a>
+            </div>
+            <div class="row mt-5 text-secondary fw-bold">
+                <div class="col-4">
+                    Airbnb
+                </div>
+                <div class="col-4">
+                    Stripe
+                </div>
+                <div class="col-4">
+                    Webflow
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-7 text-center mt-5 mt-lg-0">
+            <img src="images/cloud.png"
+                 class="img-fluid"
+                 alt="Cloud Storage">
+        </div>
     </div>
 </section>
+    <!-- hero section end  -->
+    <!-- footer start   -->
+     <footer  style="background-color:#071B4D;" class="text-light">
+    <div class="row rounded-4 p-4 align-items-center mb-5"
+    style="background-color: #071B4D;">
+        <div class="row bg-secondary rounded-4 p-4 align-items-center mb-5">
+            <div class="col-lg-4 mb-3 mb-lg-0">
+        <small class="text-uppercase text-white-50">Subscribe to our</small>
+                <h2 class="fw-bold">NEWSLETTER</h2>
+            </div>
 
-  <!-- about section  -->
- <section class="about">
+            <div class="col-lg-8">
+                <form class="input-group">
+                    <input type="email" class="form-control rounded-start-pill p-3"
+                        placeholder="Enter email address">
 
-    <div class="about-image">
-        <!-- <img src="images/about.png" alt=""> -->
+                    <button class="btn btn-primary rounded-end-pill px-4">
+                     Submit
+                    </button>
+             </form>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-3 col-6 mb-4" style="color: white;">
+                <h5>Information</h5>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Our Company</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Data</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Contact Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-6 mb-4" style="color: white;">
+                <h5>Application</h5>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Download</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Bike Provider</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">How to Use</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-6 mb-4" style="color: white;">
+                <h5>API</h5>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Documentation</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Credential</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-light p-0">Developer Info</a></li>
+                </ul>
+            </div>
+
+  <div class="col-md-3 text-md-end">
+  <h4 class="fw-bold" style="color: white;">Cloud.</h4>
+    <p class="text-white-50 mb-0" style="color: white;">
+         © 2026 All Rights Reserved
+                </p>
+            </div>
+        </div>
     </div>
-
-  <div class="about-text">
-
-    <span>ABOUT COMPANY</span>
-
-    <h2>Empowering Businesses with Secure Cloud Solutions</h2>
-
-    <p>
-        At Cloud., we provide reliable and secure cloud storage solutions that help
-        businesses manage, protect, and access their data from anywhere in the world.
-        Our advanced technology ensures high performance, strong security, and seamless
-        collaboration for teams of all sizes.
-    </p>
-
-    <button class="btn1">Learn More</button>
-
-</div>
-
-   <!-- footer start  -->
-   
- <footer>
-    <footer class="footer">
-    <div class="newsletter">
-
-        <div class="left">
-            <p>SUBSCRIBE TO OUR</p>
-            <h2>NEWSLETTER</h2>
-        </div>
-
-        <div class="right">
-
-            <form>
-                <input type="email" placeholder="Enter email address">
-                <button>SUBMIT</button>
-            </form>
-
-        </div>
-
-    </div>
-    <div class="footer-content">
-
-        <div class="box">
-            <h3>Information</h3>
-
-            <a href="#">Our Company</a>
-            <a href="#">Data</a>
-            <a href="#">Pricing</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Support</a>
-
-        </div>
-        <div class="box">
-       <h3>Application</h3>
-            <a href="#">Download</a>
-            <a href="#">Bike Provider</a>
-            <a href="#">How To Used</a>
-        </div>
-        <div class="box">
-            <h3>API</h3>
-            <a href="#">Documentation</a>
-            <a href="#">Credential</a>
-            <a href="#">Developer Info</a>
-        </div>
-
-        <div class="box copyright">
-
-            <h3>Cloud.</h3>
-            <p>Copyright © 2026 All Rights Reserved.</p>
-              <p>Designed By Cloud Team</p>
-        </div>
-  </div>
 </footer>
-  <!-- foooter end  -->
+
 
 </body>
 </html>

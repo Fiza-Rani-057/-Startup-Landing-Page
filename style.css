@@ -4,6 +4,38 @@
     padding: 0;
 
 }
+ /* Media query navbar  */
+ @media(max-width:991px){
+.navbar-nav{
+ text-align: center;
+    }
+  .right-menu{
+ display: flex;
+  flex-direction: column;
+   align-items: center;
+    gap: 15px;
+  margin-top: 20px;
+    }
+     .right-menu .nav-link{
+        margin: 0;
+    }
+    .login-btn{
+        width: 180px;
+    }
+    .badge-sale{
+        margin-left: 8px;
+    }
+
+    .pricing-item{
+        text-align: center;
+    }
+
+    .pricing-item .nav-link{
+        justify-content: center;
+    }
+
+}
+ 
 
 /* navbar bootstrap  */
 
@@ -11,7 +43,9 @@
 body {
     background: #071B4D !important;
 }
-
+.navbar-toggler-icon{
+    filter: invert(1);
+}
 .custom-navbar {
     width: 90%;
     margin: auto;

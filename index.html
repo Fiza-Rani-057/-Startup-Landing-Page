@@ -9,12 +9,13 @@
    rel="stylesheet">
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg custom-navbar mt-3">
+<nav class="navbar navbar-expand-lg navbar-light custom-navbar mt-3">
   <div class="container-fluid">
     <a class="navbar-brand logo" href="#">
       ☁Cloud.
     </a>
-    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+    <button class="navbar-toggler border-0" type="button"
+     data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,10 +30,11 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Enterprise</a>
         </li>
-        <li class="nav-item d-flex align-items-center">
-          <a class="nav-link me-2" href="#">Pricing</a>
-          <span class="badge-sale">ON SALE</span>
-        </li>
+     <li class="nav-item pricing-item">
+    <a class="nav-link" href="#">
+        Pricing <span class="badge-sale">ON SALE</span>
+    </a>
+  </li>
       </ul>  
       <div class="d-flex align-items-center right-menu">
         <a href="#" class="nav-link">Contact Sales</a>
@@ -66,12 +68,14 @@
 
             <div class="mt-4">
                 <a href="#" class="btn btn-primary rounded-3"
-   style="padding: 12px 40px; background-color:#79aaf2; border:none;
-    margin-right: 5px;" class="get-started">
+   style="padding: 10px 20px; background-color:#79aaf2;
+    border:2px solid #48619f; margin-right: 8px;
+     box-shadow: 0px 0px 20px #90aaeb"class="get-started">
     Get Started
       </a>
             <a href="#" class="btn btn-primary rounded-3"
-   style="padding: 12px 40px; background-color:#79aaf2; border:none;">
+   style="padding: 10px 20px; background-color:#79aaf2; border:none;
+    border:2px solid #48619f; box-shadow: 0px 0px 20px #90aaeb;">
                     Compare Plans
                 </a>
             </div>
@@ -149,7 +153,7 @@
     <div class="row g-4">
 
       <!-- Card 1 -->
-      <div class="col-lg-3 col-md-5" style="margin-left: 150px;">
+      <div class="col-lg-3 col-md-5" style="margin-left: 0px;" >
         <div class="card service-card"
          style=" background-color: #48619f ;color: aliceblue;">
 
@@ -204,12 +208,31 @@
           </div>
         </div>
       </div>
+       <!-- Card 4 -->
+         <div class="col-lg-3 col-md-4" style="background-color: #071B4D;">
+        <div class="card service-card"
+          style="background-color: #48619f;color: aliceblue;">
+
+          <img src="images/web.png" alt="UI UX Design">
+
+          <div class="card-body text-center">
+            <h5 class="text-white"
+             style="text-shadow: 0px 0px 3px #90aaeb;"> Data Security</h5>
+            <p class="text-dark-50"
+             style="text-shadow: 0px 0px 3px #90aaeb;">
+           Keep your business data safe with advanced encryption.
+            </p>
+            <a href="#" class="btn btn-service">Read More</a>
+          </div>
+        </div>
+      </div>
+    
+</div>
+</div>
+
     </div>
   </div>
 </section>
-
-    
-
 
         <!-- services section end  -->
     <!-- footer start   -->
@@ -290,5 +313,8 @@ style="background-color:#79aaf2; min-height: 400px;">
         </div>
     </div>
 </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
+ </script>
 </body>
 </html>
